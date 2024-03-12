@@ -9,6 +9,9 @@ body{
     font-family: 'Dancing Script', cursive;
     
 }
+.navegar{
+    text-decoration: none;
+}
 .grid{
     display: grid;
     grid-template-columns: repeat(12,1fr);
