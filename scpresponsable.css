@@ -36,7 +36,7 @@ nav{
     transition: background-color 0.3s;
 }
 .navegar a:hover{
-    font-weight: bolder;
+    font-size: x-large;
 }
 .grid{
     display: grid;
