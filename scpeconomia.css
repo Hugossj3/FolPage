@@ -61,3 +61,55 @@ footer{
 .textos-footer{
     grid-column: 1/-1;
 }
+[class^="footer-item"]{
+    grid-column: span 4;
+}
+
+
+main{
+    text-align: center;
+}
+.titulos{
+    font-weight: bolder;
+}
+.juridico{
+    flex-wrap: wrap;
+}
+.juridico p:hover{
+    font-size: x-large;
+}
+
+.botones{
+    grid-column: 1/-1;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cta{
+    width: 130px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+#fotos{
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5px;
+}
+.capturas{
+    width: 800px;
+}
+figcaption{
+    color: white;
+}
