@@ -59,3 +59,19 @@ main{
     width: min-content;
     margin: auto;
 }
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    margin-top: 10px;
+}
+.textos-footer{
+    grid-column: 1/-1;
+}
+
+
+[class^="footer-item"]{
+    grid-column: span 4;
+}
