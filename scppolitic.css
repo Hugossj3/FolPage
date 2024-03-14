@@ -82,3 +82,6 @@ hr{
 img{
     width: 100%;
 }
+h3:hover{
+    font-size: x-large;
+}
