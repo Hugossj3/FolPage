@@ -69,3 +69,16 @@ main{
     margin-left: 15%;
     margin-right: 15%;
 }
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imagenes{
+    grid-column: span 5;
+}
+.textos{
+    grid-column: span 7;
+}
+img{
+    width: 100%;
+}
