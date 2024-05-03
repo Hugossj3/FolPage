@@ -9,6 +9,12 @@ body{
     font-family: 'Dancing Script', cursive;
     
 }
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
 nav{
     margin-left: 10%;
     margin-right: 10%;
@@ -56,6 +62,7 @@ nav{
     color: white;
     background-color: black;
     width: 30%;
+    transition: all 0.3s ease;
 }
 
 
@@ -90,6 +97,10 @@ hr{
 img{
     width: 100%;
     border-radius: 15px;
+}
+h3 {
+    font-size: 18px;
+    line-height: 1.6;
 }
 h3:hover{
     font-size: x-large;
