@@ -87,3 +87,7 @@ img{
 .items2{
     grid-column: span 6;
 }
+.datos{
+    padding-top: 5px;
+}
+
