@@ -110,6 +110,12 @@ main{
 .capturas{
     width: 800px;
 }
+#tesoros{
+    width: 800px;
+}
+#tesoros:hover{
+    opacity: 40%;
+}
 figcaption{
     color: white;
 }
